@@ -1,0 +1,11 @@
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\bin\Debug\netcoreapp3.0\Challenges.exe
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\bin\Debug\netcoreapp3.0\Challenges.deps.json
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\bin\Debug\netcoreapp3.0\Challenges.runtimeconfig.json
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\bin\Debug\netcoreapp3.0\Challenges.runtimeconfig.dev.json
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\bin\Debug\netcoreapp3.0\Challenges.dll
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\bin\Debug\netcoreapp3.0\Challenges.pdb
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\obj\Debug\netcoreapp3.0\Challenges.csprojAssemblyReference.cache
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\obj\Debug\netcoreapp3.0\Challenges.AssemblyInfoInputs.cache
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\obj\Debug\netcoreapp3.0\Challenges.AssemblyInfo.cs
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\obj\Debug\netcoreapp3.0\Challenges.dll
+C:\Users\Zach\source\codeworks\C-Sharp\Challenges\obj\Debug\netcoreapp3.0\Challenges.pdb
