@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 
 namespace Challenges
 {
@@ -56,6 +58,56 @@ namespace Challenges
       }
       return sum;
     }
+
+
+    //Write a function that will loop over an array and group all similar values in sub arrays Example group([1,1,3,4,5,4]) => output [[1,1],[3],[4,4],[5]
+    public static List<List<int>> ArrayGroup(int[] arr)
+    {
+      //Create a Dictionary
+      Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
+      //Loop over Array and add each value as a key if it doesnt exist
+      foreach (int val in arr)
+      {
+        //If it doesnt exist
+        if (dict.ContainsKey(val))
+        {
+          //add new list
+          dict.Add(val, new List<int>());
+        }
+        //push into an array at that key
+        dict[val].Add(val);
+      }
+      //Return Dictionary Values as an Array
+      return dict.Values.ToList();
+    }
+
+
+    //Take 2 on Arraygroup
+    public static int[][] ArrayGroup2(int[] arr)
+    {
+      //Create a Dictionary
+      Dictionary<int, List<int>> dict = new Dictionary<int, List<int>>();
+      //Loop over Array and add each value as a key if it doesnt exist
+      foreach (int val in arr)
+      {
+        //If it doesnt exist
+        if (dict.ContainsKey(val))
+        {
+          //add new list
+          dict.Add(val, new List<int>());
+        }
+        //push into an array at that key
+        dict[val].Add(val);
+      }
+      //Return Dictionary Values as an Array
+      var values = dict.Values.ToList();
+      var inList = new List<int[]>();
+      values.ForEach(v => inList.Add(v.ToArray()));
+      return inList.ToArray();
+    }
+
+
+
 
   }
 }
