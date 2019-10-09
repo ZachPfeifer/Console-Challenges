@@ -39,18 +39,31 @@ namespace Challenges
       System.Console.WriteLine(Challenges.arraySum(new int[] { 10, 10, 10, 10, 10 }) + " = 50?");
 
 
-      Console.WriteLine(" ");
-      Console.WriteLine("Loop over an Array and Group all similar values?");
-      // //Write a function that will loop over an array and group all similar values in sub arrays Example group([1,1,3,4,5,4]) => output [[1,1],[3],[4,4],[5]
-      System.Console.WriteLine(Challenges.ArrayGroup(new int[] { 1, 1, 3, 4, 5, 4 }) + " = [[1,1],[3],[4,4],[5]?");
+      // Console.WriteLine(" ");
+      // Console.WriteLine("Loop over an Array and Group all similar values?");
+      // // //Write a function that will loop over an array and group all similar values in sub arrays Example group([1,1,3,4,5,4]) => output [[1,1],[3],[4,4],[5]
+      // System.Console.WriteLine(Challenges.ArrayGroup(new int[] { 1, 1, 3, 4, 5, 4 }) + " = [[1,1],[3],[4,4],[5]?");
+
+      // Console.WriteLine(" ");
+      // Console.WriteLine("Loop over an Array and Group all similar values? Take 2");
+      // // //Write a function that will loop over an array and group all similar values in sub arrays Example group([1,1,3,4,5,4]) => output [[1,1],[3],[4,4],[5]
+      // System.Console.WriteLine(Challenges.ArrayGroup2(new int[] { 1, 1, 3, 4, 5, 4 }) + " = [[1,1],[3],[4,4],[5]?");
+
 
       Console.WriteLine(" ");
-      Console.WriteLine("Loop over an Array and Group all similar values? Take 2");
-      // //Write a function that will loop over an array and group all similar values in sub arrays Example group([1,1,3,4,5,4]) => output [[1,1],[3],[4,4],[5]
-      System.Console.WriteLine(Challenges.ArrayGroup2(new int[] { 1, 1, 3, 4, 5, 4 }) + " = [[1,1],[3],[4,4],[5]?");
+      Console.WriteLine("Kaprekar Constant?");
+      //Kaprekar's constant The number 6174 is known as Kaprekar's constant.
+      System.Console.WriteLine(Challenges.KaprekarConstant(7861) + " Count until = 6174?");
 
+      Console.WriteLine(" ");
+      Console.WriteLine("Kaprekar Constant(Take 2)?");
+      //Kaprekar's constant The number 6174 is known as Kaprekar's constant.
+      System.Console.WriteLine(Challenges.KaprekarConstant2(7861) + "Count until = 6174?");
 
-
+      Console.WriteLine(" ");
+      Console.WriteLine("Kaprekar Constant?(Take 3)");
+      //Kaprekar's constant The number 6174 is known as Kaprekar's constant.
+      System.Console.WriteLine(Challenges.KaprekarConstant3(7861) + "Count until = 6174?");
     }
 
   }
